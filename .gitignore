@@ -7,10 +7,27 @@
 export.cfg
 export_credentials.cfg
 
-# Imported translations (automatically generated from CSV files)
+# Imported translations
 *.translation
 
 # Mono-specific ignores
 .mono/
 data_*/
 mono_crash.*.json
+
+# Default ignored files
+/shelf/
+fakemon/.idea/.idea.Fakemon/.idea/workspace.xml
+
+# Rider ignored files
+fakemon/.idea/.idea.Fakemon/.idea/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Fakemon.iml
+/modules.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
